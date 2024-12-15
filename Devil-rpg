@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakib RPG Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #5c6bc0;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #5c6bc0;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #3949ab;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Shakib's RPG Game</h1>
+        <p>Get ready to explore the world of Shaldhar!</p>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <script>
+        function startGame() {
+            alert("The game has started! Prepare for an adventure.");
+            // Here you can add more game logic in the future
+        }
+    </script>
+</body>
+</html>
